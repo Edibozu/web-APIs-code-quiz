@@ -1,5 +1,6 @@
 .start-button {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #button1 {
@@ -22,3 +23,28 @@
     background-color: purple;
     color: white;
 }
+
+.submit-btn {
+    padding-top: 10px;
+}
+
+.form-control {
+    max-width: 30%;
+    visibility: hidden;
+
+}
+
+#button2 {
+    background-color: purple;
+    color: white;
+    visibility: hidden;
+}
+
+#all-done {
+    visibility: hidden;
+}
+
+#form-info {
+    visibility: hidden;
+}
+
