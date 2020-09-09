@@ -6,3 +6,19 @@
     background-color: purple;
     color: white;
 }
+
+.hs-button {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#button-clear {
+    background-color: purple;
+    color: white;
+}
+
+#button-go-back {
+    background-color: purple;
+    color: white;
+}
