@@ -17,18 +17,28 @@
   <body>
     <header>
       <nav class="nav">
-          <div class="highscores mr-auto">
-            <a class="nav-link active" href="./highscores.html">Highscores</a>
-          </div>
-          <div class="timer ml-auto">
-            <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Time: <span id="time-remaining">60</span></a>
-          </div>
+        <div class="highscores mr-auto">
+          <a class="nav-link active" href="./highscores.html">Highscores</a>
+        </div>
+        <div class="timer ml-auto">
+          <a class="nav-link disabled" tabindex="-1" aria-disabled="true"
+            >Time: <span id="time-remaining">60</span></a
+          >
+        </div>
       </nav>
     </header>
 
     <main>
       <div class="container m-auto">
         <h2 id="container-main" class="text-center">Coding Quiz Challenge</h2>
+        <p id="container-secondary" class="text-center">
+          Try to answer the code-related questions withing the time limit. Keep
+          in mind that incorrect answers will penalize your score/time by ten
+          seconds!
+        </p>
+        <div class="start-button">
+          <button id="button1" type="button">Start Quiz</button>
+        </div>
       </div>
     </main>
 
